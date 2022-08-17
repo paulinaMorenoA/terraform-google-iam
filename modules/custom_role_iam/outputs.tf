@@ -15,6 +15,6 @@
  */
 
 output "custom_role_id" {
-  value       = local.custom-role-output
+  value       = google_organization_iam_custom_role.org-custom-role
   description = "ID of the custom role created."
 }
